@@ -21,11 +21,13 @@ header {
 aside#social {
     background: lime;
     width: 200px;
-    height: 300px;
+    height: auto;
     position: fixed;
     top: 50px;
     right: 20px;
+    cursor: pointer;
 }
+
 ul.social-links {
     display: none;
 }
