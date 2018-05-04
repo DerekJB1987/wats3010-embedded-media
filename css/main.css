@@ -17,6 +17,24 @@ header {
     background-repeat: no repeat;
     background-size: cover;
 }
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+a:link, a:visited, a:focus {
+  background: yellow;
+}
+
+a:hover {     
+  background: orange;
+}
 
 aside#social {
     background: lime;
@@ -48,11 +66,11 @@ section {
 }
 
 section#watch {
-    background: pink
+    background: none;
 }
 
 section#listen {
-    background: yellow;
+    background: none;
 }
 
 section#about {
