@@ -10,19 +10,35 @@
      padding: 0;
  }
  
- ul {
+ ul.main-nav {
     list-style-type: square;
-    margin: 0;
+    margin-left: 15px;
     padding: 0;
+    font-size:18px;
 }
-
+p.subtitle {
+    font-size:28px;
+}
+p.lead {
+    color: #414246;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.2em;
+    word-break: break-word;
+}
 header {
     height: 300px;
-    background: url(../img/official_header.jpg);
+    background: url(../img/official_header.jpg); 
     background-position: center center;
     background-repeat: no repeat;
     background-size: cover;
 }
+
+video {
+    margin: auto;
+    display: block;
+}
+
 a.download-button {
   outline: none;
   text-decoration: underline;
@@ -37,21 +53,23 @@ a.download-button {
 
 a:hover {
   border-bottom: 1px solid;     
-  background: #808080;
+  background: #FF7F50;
 }
 
 a:active {
   background: #F08080;
-  color: #808080;
+  color: #FF7F50;
 }
 aside#social {
-    background: lime;
+    background: none;
     width: 200px;
     height: auto;
     position: fixed;
     top: 50px;
     right: 20px;
     cursor: pointer;
+    border-style:solid;
+    border-color:#00FFFF;
 }
 
 ul.social-links {
@@ -62,7 +80,6 @@ aside#social:hover ul.social-links {
 }
 
 h1 {
-    background: rgba(255,255,255,0.8);
     padding:5px;
 }
 
@@ -82,7 +99,13 @@ section#listen {
 }
 
 section#about {
-    background: orange;
+    background: n;
+}
+
+ul.weybec-people {
+    list-style-type:none;
+    display: inline-block;
+    margin-left: 500px;
 }
 
 footer {
