@@ -8,14 +8,14 @@
  html {
      margin: 0;
      padding: 0;
- }
- 
- ul.main-nav {
+ } 
+ul.main-nav {
     list-style-type: square;
     margin-left: 15px;
     padding: 0;
     font-size:18px;
 }
+
 p.subtitle {
     font-size:28px;
 }
@@ -37,6 +37,8 @@ header {
 video {
     margin: auto;
     display: block;
+    width:75%;
+    height:auto;
 }
 
 a.download-button {
@@ -72,9 +74,6 @@ aside#social {
     border-color:#00FFFF;
 }
 
-ul.social-links {
-    display: none;
-}
 aside#social:hover ul.social-links {
     display: block;
 }
@@ -91,23 +90,25 @@ section {
 }
 
 section#watch {
-    background: none;
+    background:#89FC00;
 }
 
 section#listen {
-    background: none;
+    background:#2DC7FF;
 }
 
 section#about {
-    background: n;
+    background:url(../img/monkaa_monkeyhang.jpg);
+    background-size:cover;
 }
 
 ul.weybec-people {
     list-style-type:none;
     display: inline-block;
-    margin-left: 500px;
+    margin-left: none;
 }
 
 footer {
-    background: none;
+    background:#EABA6B;
+    clear:none;
 }
