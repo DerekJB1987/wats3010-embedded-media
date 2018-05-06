@@ -53,7 +53,9 @@ aside#social {
 aside#social:hover ul.social-links {
     display: block;
 }
-
+ul.social-links {
+    display:none;
+}
 /* media sections */
 video {
     margin: auto;
