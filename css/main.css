@@ -5,10 +5,18 @@
  * Site Styles
  *****************************************************************************/
 
- html {
+html {
      margin: 0;
      padding: 0;
  } 
+ 
+h1, h2 {
+    text-shadow:x-offset y-offset rgba(color alpha transparency);
+    font-size: 2em;
+    text-align: left;
+    text-shadow: 1px 1px rgba(255,255,255,0.8);
+    text-decoration: underline;
+} 
 ul.main-nav {
     list-style-type: square;
     margin-left: 15px;
