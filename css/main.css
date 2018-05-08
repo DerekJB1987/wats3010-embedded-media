@@ -75,11 +75,11 @@ a.download-button {
 }
 a:hover {
   border-bottom: 1px solid;     
-  background: #FF7F50;
+  background: #B49FCC;
 }
 a:active {
   background: #F08080;
-  color: #FF7F50;
+  color: #B49FCC;
 }
 section {
     padding-top: 50px;
